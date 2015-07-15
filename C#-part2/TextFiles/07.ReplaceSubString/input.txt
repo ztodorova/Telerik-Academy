@@ -1,0 +1,1 @@
+The program replaces all occurrences of the sub-string start with the sub-string finish in a text file. Here are some more startstart start occurrences.
