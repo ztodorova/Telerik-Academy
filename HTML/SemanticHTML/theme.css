@@ -1,0 +1,35 @@
+img,h1{
+    display:inline-block;
+}
+h1{
+    margin-left:150px; 
+    font-size:28px;
+    font-weight:normal;    
+}
+img{
+    margin-left:70px;
+    margin-top:5px;
+    vertical-align:top;
+}
+ul,section{
+    margin-left:70px;
+}
+li{
+    font-size:24px;
+}
+td{
+    text-align:center;
+    margin-left:0;
+    font-size:22px;
+    padding:5px 30px 5px 30px;
+}
+th {
+    font-size:24px;
+    padding:5px 15px 5px 15px;
+}
+body{
+    font-family:Arial;
+}
+table {
+    margin-top:40px;
+}

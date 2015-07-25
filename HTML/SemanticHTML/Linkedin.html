@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Linked in</title>
+</head>
+<body>
+<header>
+    <a href="#"><h2>LinkedIn</h2></a>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">What is LinkedIn?</a></li>
+            <li><a href="#">Join Today</a></li>
+            <li>
+                <fieldset>
+                    <legend>Sign In</legend>
+                    <form method="post">
+                        <ul type="circle">
+                            <li>
+                                <label for="email">Email: </label>
+                                <input type="email" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" />
+                            </li>
+                            <li>
+                                <label for="pass">Password: </label>
+                                <input type="password" id="pass" />
+                            </li>
+                            <li>
+                                <input type="submit" value="Sign In" />
+                            </li>
+                        </ul>
+                    </form>
+                </fieldset>
+            </li>
+        </ul>
+    </nav>
+    <hr/>
+</header>
+    <section>
+        <header>
+            <h1>Over 175 million professionals use LinkedIn to exchange information, ideas and opportunities</h1>
+
+            <ul>
+                <li>Stay informed about your contact and industry</li>
+                <li>Find people &amp; knowledge you need to achieve your goals</li>
+                <li>Control your professional identity online</li>
+            </ul>
+        </header>
+        <h2>Join LinkedIn today</h2>
+        <fieldset>
+            <legend>Sign Up</legend>
+            <form method="post">
+                <ul>
+                    <li>
+                        <label for="firstName">First Name:</label><br />
+                        <input type="text" id="firstName" required="required" />
+                    </li>
+                    <li>
+                        <label for="lastName">Last Name:</label><br />
+                        <input type="text" id="lastName" required="required" />
+                    </li>
+                    <li>
+                        <label for="email2">Email:</label><br />
+                        <input type="email" id="email2" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required="required" />
+                    </li>
+                    <li>
+                        <label for="password2">Password:</label><br />
+                        <input type="password" id="password2" required="required" />
+                    </li>
+                </ul>
+                <p style="margin-left:40px;">6 or more characters</p>
+                <input type="submit" value="Join now" />
+                <p>Already on LinkedIn? <a href="#">Sign in</a></p>
+            </form>
+        </fieldset>
+    </section>
+    <section>
+        <form method="post">
+            <header><h3>Search for someone by name:</h3></header>
+            <ul>
+                <li>
+                    <label id="firstName2">First Name:</label>
+                    <input type="text" id="firstName2" value="First Name"/>
+                </li>
+                <li>
+                    <label id="lastName2">First Name:</label>
+                    <input type="text" id="lastName2" value="Last Name"/>
+                </li>
+            </ul>
+            <input type="submit" value="Go" />
+        </form>
+    </section>
+    
+</body>
+</html>

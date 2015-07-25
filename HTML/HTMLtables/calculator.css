@@ -1,0 +1,22 @@
+.table{
+border:1px solid #8CF5F3;
+background-color:#F4FAFB;
+}
+.result{
+background-color:#F4FAFB;
+height:23px;
+}
+.cell{
+text-align:center;
+border:1px solid #8CF5F3;
+border-collapse:separate;
+
+}
+.button{
+background-color:#F4FAFB;
+border:none;
+color:#8CF5F3;
+font-size:24px;
+text-shadow:1px 1px 1px #999;
+width:100%;
+}
