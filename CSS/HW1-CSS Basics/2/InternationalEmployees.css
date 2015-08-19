@@ -1,0 +1,40 @@
+th{
+   background-color:#54B706; 
+    font-weight:100;
+    color:white;
+    text-align:left;
+    padding:5px;
+    border-right: 1px solid #a0a0a0;
+   
+}
+tr:nth-child(even){
+    background-color:#ECECD8;
+}
+body{
+    font-family:Arial;
+    font-size:12px;
+}
+td{
+    font-weight:100;
+    text-align:left;
+    padding:5px;
+    border-right: 1px solid #a0a0a0;
+}
+td:nth-child(1){
+    width:130px
+}
+td:nth-child(2), td:nth-child(3){
+    width:100px
+}
+table{
+    border-spacing:0;
+}
+td:last-child{
+    border-right:none;
+}
+th:last-child{
+    border-right:none;
+}
+span{
+    padding-right:10px;
+}

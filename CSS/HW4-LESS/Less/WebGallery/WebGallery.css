@@ -1,0 +1,25 @@
+﻿img {
+  width: 200px;
+  height: 150px;
+}
+ul {
+  list-style-type: none;
+}
+ul li {
+  display: inline-block;
+}
+.big {
+  width: 490px;
+  height: 400px;
+}
+ul ul {
+  display: none;
+  position: absolute;
+}
+.last {
+  right: 200px;
+}
+ul li:hover > ul {
+  display: block;
+}
+/*# sourceMappingURL=WebGallery.css.map */

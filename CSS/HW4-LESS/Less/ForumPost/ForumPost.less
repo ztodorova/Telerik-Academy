@@ -1,0 +1,183 @@
+﻿.linear-gradient(@startColor,@startPos,@middleColor,@middlePos,@endColor,@endPos){
+                    background:@startColor; /* Old browsers */
+background: -moz-linear-gradient(top, @startColor @startPos, @middleColor @middlePos, @endColor @endPos); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(@startPos,#d091fb), color-stop(@middlePos,@middleColor), color-stop(@endPos,@endColor)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, @startColor @startPos,@middleColor @middlePos,@endColor @endPos); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, @startColor @startPos,@middleColor @middlePos,@endColor @endPos); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, @startColor @startPos,@middleColor @middlePos,@endColor @endPos); /* IE10+ */
+background: linear-gradient(to bottom, @startColor @startPos,@middleColor @middlePos,@endColor @endPos); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d091fb', endColorstr='@endColor',GradientType=0 ); /* IE6-9 */
+                }
+
+.borderStyle(@radius:10px){
+    border: 2px solid #4F0B83; 
+            border-radius: @radius;
+}
+
+.display-inline-block(){display:inline-block}
+
+ @field-color:#B35EF3;                  
+
+body {
+    .linear-gradient(#d091fb,0%,#9320f0,17%,#9215f2,100%);
+    color:white;
+
+    img{
+        width:70%;
+    }
+     font: 14px normal Arial;
+  
+}
+#header-container{
+.display-inline-block();
+    width:100%;
+    
+}
+#logo-container{
+.display-inline-block();
+}
+#reg-form-container{
+   .display-inline-block();
+    float:right;
+    margin-right:50px;
+    margin-top:15px;
+   
+}
+input[type=text]{
+    background-color: @field-color;
+    border-radius:10px;
+     width: 130px;
+ border: 1px solid #603382;
+ margin-bottom:10px;
+
+      
+}
+input[type=password]:extend(input[type=text]){
+  margin-left:5px;
+}
+label{
+    color:#fff;
+}
+button{
+     margin-left: auto;
+                margin-right: auto;
+                font-weight: bold;
+                border: 1px solid #603382;
+                border-style: outset;
+                border-radius: 10px;
+                padding: 5px 8px;
+
+                 background-color:rgba(255,255,255,0.0);
+            color:white;
+            border-top: 1px solid rgba(255,255,255,0.5);
+            border-left: 1px solid rgba(255,255,255,0.5);
+}
+header>nav{
+    
+        margin-left:20px;
+   
+}
+#main-nav-list>li{
+       .display-inline-block();
+
+       margin-right:15px;
+    a{
+        color:#fff;
+        text-decoration:none;
+    }
+}
+ul#main-nav-list {
+    ul{
+display:none;
+list-style-type:none;
+background-color:rgba(255,255,255,0.9);
+text-align:center;
+padding:0;
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+li{
+padding:5px 10px 5px 10px;
+&:hover{
+    border-bottom:3px solid purple;
+    background-color:rgba(255,255,255,0.8);
+}
+}
+
+}
+    li:hover>ul{
+        display:block;
+        position:absolute;
+    }
+}
+#main-nav-list > li:nth-child(2) > ul > li > a{
+                     color:black;
+                     font-size:1.2em;
+                 }
+#main-nav-list{
+    .borderStyle();
+    padding:10px;
+    width:70%;
+}
+section{
+    
+    article{
+        .borderStyle();
+        margin:10px;
+        padding:10px;
+        a{
+            color:#BA61F4;
+            text-decoration:none;
+            &:hover{
+                text-decoration:underline;
+            }
+        }
+    }
+    footer{
+        text-align:right;
+    }
+
+    float:left;
+    .display-inline-block();
+    width:65%;
+}
+aside{  
+    .display-inline-block();
+    width:33%;
+    a{
+            color:#BA61F4;
+            text-decoration:none;
+            &:hover{
+                text-decoration:underline;
+            }
+            }
+    h2{
+        font-size:16px;
+    }
+    margin-bottom:180px;
+}
+aside>ul>li{
+        
+            .borderStyle(5px);
+            margin:10px;
+            padding:10px;
+            list-style-type:none; 
+            
+            ul {
+                li{
+                    list-style-image:url('./images/li-dot.png');
+                }
+
+            }  
+    }
+aside>ul{
+    margin-top:40px;
+        padding-left:10px;
+}
+footer{
+    margin:0 auto;
+    display:block;
+    position:relative;
+    text-align:center;
+}
